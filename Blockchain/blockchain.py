@@ -32,7 +32,3 @@ class Blockchain:
             else:
                 new_proof += 1
         return new_proof
-
-
-bc = Blockchain()
-print(bc.get_previous_block())
