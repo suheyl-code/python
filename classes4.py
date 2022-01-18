@@ -12,7 +12,7 @@ class Repository:
 
     def total_size(self):
         result = 0
-        for key, value in self.packages.items():
+        for value in self.packages.values():
             result += len(value)
         return result
 
