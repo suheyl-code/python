@@ -28,4 +28,4 @@ x = [len(language) for language in languages]
 print(x)
 
 odd = [ number for number in range(0,101) if number % 3 == 0]
-print(odd)
+print(odd, type(odd))
