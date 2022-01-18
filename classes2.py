@@ -4,6 +4,7 @@ class Dog:
         print(f"Dog named <{name}> created.")
 
     def talk(self):
+        """This goes into doc definiton of help()"""
         print(f"{self.name}: Can't talk, sorry!")
 
     def __str__(self):
@@ -12,4 +13,5 @@ class Dog:
 
 js = Dog("js")
 js.talk()
-print(js)   # this deals with __str__
+help(Dog.talk)
+print(js)   # this deals with __str__ method
