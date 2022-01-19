@@ -1,3 +1,3 @@
 # python
-Python Practice Sheet
+Python Practice Sheet.
 It Consists of several files.
